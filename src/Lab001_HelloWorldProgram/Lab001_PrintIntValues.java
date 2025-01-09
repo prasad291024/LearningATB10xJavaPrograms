@@ -1,6 +1,6 @@
 package Lab001_HelloWorldProgram;
 
-public class Lab003_PrintIntValues {
+public class Lab001_PrintIntValues {
     public static void main(String[] args) {
         System.out.println("1");
         System.out.println("2");
