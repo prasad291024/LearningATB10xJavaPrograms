@@ -1,4 +1,4 @@
-package Lab001_HelloWorldProgram;
+package ex_01_JAVA_Basics;
 
 public class Lab001_comments {
     public static void main(String[] args) {

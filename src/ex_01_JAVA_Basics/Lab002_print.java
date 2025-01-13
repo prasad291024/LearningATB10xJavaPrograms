@@ -1,4 +1,4 @@
-package Lab001_HelloWorldProgram;
+package ex_01_JAVA_Basics;
 /**
  * Author - Prasad Valiv
  * Program Name - ATB10x
@@ -10,7 +10,7 @@ package Lab001_HelloWorldProgram;
 
 // Class -> Method -> statements(instructions)
 
-public class Lab001_print {
+public class Lab002_print {
     public static void main(String[] args) {
         System.out.print("Hello Prasad");
         System.out.print("Hello Bro\t");
