@@ -1,4 +1,4 @@
-package ex_04_Ternary_Operator;
+package ex_04_Operators;
 
 public class Q5_OperatorsExample {
         public static void main(String[] args) {
