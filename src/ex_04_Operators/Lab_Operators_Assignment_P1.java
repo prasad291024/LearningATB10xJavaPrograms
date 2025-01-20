@@ -1,6 +1,6 @@
-package ex_04_Ternary_Operator;
+package ex_04_Operators;
 
-public class Lab_Operators_Assignment {
+public class Lab_Operators_Assignment_P1 {
 
     public static void main(String[] args) {
         // Assignment operator
