@@ -2,7 +2,7 @@ package Task29thJan_Basic_If_Else;
 
 import java.util.Scanner;
 
-public class PositiveNegativeCheck {
+public class PositiveNegativeCheckNumber {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in); // Create Scanner object
 
