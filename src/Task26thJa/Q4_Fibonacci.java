@@ -1,4 +1,4 @@
-package Task26thJan;
+package Task26thJa;
 
 public class Q4_Fibonacci {
     public static void main(String[] args) {
