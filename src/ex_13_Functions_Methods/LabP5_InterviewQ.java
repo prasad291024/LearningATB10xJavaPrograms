@@ -1,4 +1,4 @@
-package ex_13_Functions;
+package ex_13_Functions_Methods;
 
 public class LabP5_InterviewQ {
     public static void main(String[] args) {
