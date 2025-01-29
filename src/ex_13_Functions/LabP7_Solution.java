@@ -1,5 +1,7 @@
 package ex_13_Functions;
 
+import java.util.Scanner;
+
 public class LabP7_Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
