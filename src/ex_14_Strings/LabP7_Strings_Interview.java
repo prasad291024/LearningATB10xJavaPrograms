@@ -10,16 +10,17 @@ public class LabP7_Strings_Interview {
         String s3 = new String("Hello");
         String s5 = new String("hello"); //  OA = 3
 
-
+        System.out.println("---------------Comparison---------------------");
         // == ?  Comparsion -> Strings -> This check the locations ref.
-//        System.out.println(s1 == s3);
-//        System.out.println(s1 == s2);
-//        System.out.println(s2 == s3);
+        System.out.println(s1 == s3);
+        System.out.println(s1 == s2);
+        System.out.println(s2 == s3);
 
-//        System.out.println(s1 == s4);
-//        System.out.println(s3 == s5);
+        System.out.println(s1 == s4);
+        System.out.println(s3 == s5);
 
 
+        System.out.println("-------------------Equals----------------------");
 // // equals ( content) -> value
         // How can I check the values? equals == value
 
