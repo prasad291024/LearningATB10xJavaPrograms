@@ -19,7 +19,7 @@ public class Q1_NumberDivisibility {
             }
         }
 
-        // Edge case - Handling special case for zero
+        // Edge case - Handling case if user enters zero
         if (num == 0) {
             System.out.println("0 is not valid input.");
         }
