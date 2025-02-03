@@ -1,4 +1,4 @@
-package Personal_Practice;
+package Task2ndFeb;
 
 public class StringFunctions2 {
     public static void main(String[] args) {
