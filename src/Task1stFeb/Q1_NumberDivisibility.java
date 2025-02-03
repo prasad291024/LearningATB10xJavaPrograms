@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Q1_NumberDivisibility {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in); // taking input from user
         int num;
 
-        // Input validation to ensure user enters a valid integer
+        // Edge case - ensure user enters a valid integer
         while (true) {
             System.out.print("Enter a valid integer: ");
             if (scan.hasNextInt()) {
@@ -19,11 +19,11 @@ public class Q1_NumberDivisibility {
             }
         }
 
-        // Handling special case for zero
+        // Edge case - Handling special case for zero
         if (num == 0) {
-            System.out.println("0 is divisible by every number.");
+            System.out.println("0 is not valid input.");
         }
-        // Checking divisibility conditions
+        // Logic - Check divisibility conditions
         else if (num % 5 == 0 && num % 11 == 0) {
             System.out.println(num + " is divisible by both 5 and 11.");
         } else if (num % 5 == 0) {
