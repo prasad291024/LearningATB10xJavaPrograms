@@ -1,4 +1,5 @@
 package Personal_Practice;
+//strings functions -
 
 public class StringsPractice {
     public static void main(String[] args) {
