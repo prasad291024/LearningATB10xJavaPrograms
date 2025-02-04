@@ -63,8 +63,6 @@ public class LabP2_Strings_Functions {
 
 
 
-
-
         // 13. trim()  -  Removes whitespace from both ends of a string
         String nonTrimmedString = "     Sonal     ";
         System.out.println(nonTrimmedString); //Answer --> __Sonal__
@@ -115,6 +113,18 @@ public class LabP2_Strings_Functions {
         System.out.println(split4[0]);
         System.out.println(split4[1]);
         System.out.println(split4[2]);
+
+
+        // 21. string builder
+        StringBuilder sb = new StringBuilder("Sonal");
+        System.out.println(sb);
+        //Answer --> Sonal
+        System.out.println(sb.append(" Harish"));
+        //Answer --> Sonal Harish
+        System.out.println(sb.insert(5, " "));
+        //Answer --> Sonal Harish
+        System.out.println(sb.replace(6, 12, "Harish"));
+
 
 
 
