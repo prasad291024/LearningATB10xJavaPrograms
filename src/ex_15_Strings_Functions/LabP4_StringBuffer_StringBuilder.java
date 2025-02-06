@@ -14,19 +14,19 @@ public class LabP4_StringBuffer_StringBuilder {
         System.out.println(stringBuffer);
 
 
-//        StringBuilder stringBuilder = new StringBuilder("Pramod");
-//        stringBuilder.append("Sharma");
-//        System.out.println(stringBuilder);
-//
-//        stringBuilder.append(" World!"); // Modifies sb to "Hello World!"
-//        System.out.println(stringBuilder); // Output: Hello World!
-//
-//
-//        String s1 = "Hello";
-//        String s2 = " World!";
-//        String s3 = s1 + s2; // Creates a new string "Hello World!"
-//        System.out.println(s3); // Output: Hello World!
-//        System.out.println(s1);
+        StringBuilder stringBuilder = new StringBuilder("Pramod");
+        stringBuilder.append("Sharma");
+        System.out.println(stringBuilder);
+
+        stringBuilder.append(" World!"); // Modifies sb to "Hello World!"
+        System.out.println(stringBuilder); // Output: Hello World!
+
+
+        String s1 = "Hello";
+        String s2 = " World!";
+        String s3 = s1 + s2; // Creates a new string "Hello World!"
+        System.out.println(s3); // Output: Hello World!
+        System.out.println(s1);
     }
 
 }
