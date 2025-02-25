@@ -1,4 +1,4 @@
-package ex_19_OOPs_Part2.Inheritance;
+package ex_19_OOPs_Part2.Inheritance.Single_Inheritance.Example;
 
     // Parent class
     class Parent {

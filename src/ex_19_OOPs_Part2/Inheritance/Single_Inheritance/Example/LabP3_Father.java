@@ -1,4 +1,4 @@
-package ex_19_OOPs_Part2.Inheritance;
+package ex_19_OOPs_Part2.Inheritance.Single_Inheritance.Example;
 
 public class LabP3_Father {
     int gold_f = 1000;

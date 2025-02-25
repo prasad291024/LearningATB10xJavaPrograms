@@ -38,7 +38,7 @@ class Vehicle{
 }
 
 
-// Single Inheritance
+// Single Single_Inheritance
 class Car extends Vehicle{
     private int maxSpeed = 281;
 

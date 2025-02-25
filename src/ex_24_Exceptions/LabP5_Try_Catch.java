@@ -2,13 +2,19 @@ package ex_24_Exceptions;
 
 public class LabP5_Try_Catch {
     public static void main(String[] args) {
-        System.out.println("Start!");
-        String s1 = null;
+        int c =0;
+        int b = 0;
         try {
-            s1.trim();
-        } catch (Exception e) {
+            b = 10/c;
+        } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
         }
-        System.out.println("End");
+        catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        catch (Throwable e) {
+            System.out.println(e.getMessage());
+        }
+        System.out.println(b);
     }
 }

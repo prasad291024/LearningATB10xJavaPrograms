@@ -15,25 +15,33 @@ public class LabP1_Param_C {
         samsung.display();
         String model_name_main = samsung.give_me_model_name();
         System.out.println(model_name_main);
+        String year_of_launch_main = samsung.what_is_year_of_launch();
+        System.out.println(year_of_launch_main);
 
     }
 
 }
 
-class Mobile{
+class Mobile {
     String model_name;
     String year_of_launch;
 
-    Mobile(String model_name_c,String year_of_launch_c){
+    Mobile(String model_name_c, String year_of_launch_c) {
         this.model_name = model_name_c;
         this.year_of_launch = year_of_launch_c;
     }
 
-    void display(){
-        System.out.println(this.model_name + " - "+ this.year_of_launch);
+    void display() {
+        System.out.println(this.model_name + " - " + this.year_of_launch);
     }
 
-    String give_me_model_name(){
+    String give_me_model_name() {
         return this.model_name;
     }
-}
+
+
+        String what_is_year_of_launch() {
+            return this.year_of_launch;
+        }
+    }
+

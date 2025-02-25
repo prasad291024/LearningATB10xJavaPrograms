@@ -1,4 +1,4 @@
-package ex_19_OOPs_Part2.Inheritance;
+package ex_19_OOPs_Part2.Inheritance.Single_Inheritance.Example;
 
 public class LabP5_SingleInherit_FatherSon {
     public static void main(String[] args) {
