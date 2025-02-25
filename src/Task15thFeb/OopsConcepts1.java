@@ -15,7 +15,7 @@ class Car {
     }
 }
 
-// 2. Inheritance
+// 2. Single_Inheritance
 class SportsCar extends Car {
     private int speed;
 
@@ -61,7 +61,7 @@ public class OopsConcepts1 {
         Car myCar = new Car("Toyota");
         System.out.println("Car brand: " + myCar.getBrand());
 
-        // Inheritance
+        // Single_Inheritance
         SportsCar sc = new SportsCar("Ferrari", 350);
         sc.showSpeed();
 
