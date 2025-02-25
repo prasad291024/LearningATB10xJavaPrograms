@@ -16,7 +16,7 @@ class Car extends Vehicle {
     }
 }
 
-// Main class to test Inheritance
+// Main class to test Single_Inheritance
 public class InheritanceExample {
     public static void main(String[] args) {
         Car myCar = new Car();
