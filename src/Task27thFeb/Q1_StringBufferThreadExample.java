@@ -25,8 +25,8 @@ class MyThread extends Thread {
 public class Q1_StringBufferThreadExample {
     public static void main(String[] args) {
         SharedBuffer obj = new SharedBuffer();
-        MyThread t1 = new MyThread(obj);
-        MyThread t2 = new MyThread(obj);
+        myThread t1 = new myThread(obj);
+        myThread t2 = new myThread(obj);
 
         t1.start();
         t2.start();
