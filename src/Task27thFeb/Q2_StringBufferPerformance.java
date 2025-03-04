@@ -14,4 +14,4 @@ public class Q2_StringBufferPerformance {
         }
     }
 
-}
+

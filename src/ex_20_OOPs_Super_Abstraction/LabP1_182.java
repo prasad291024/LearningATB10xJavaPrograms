@@ -15,11 +15,11 @@ class Vehicle{
 
     Vehicle(){
         System.out.println("Default Const");
-    }
+    } // constructor
 
     Vehicle(int a ){
         System.out.println("Param Con");
-    }
+    } //parameterized constructor
 
     // Method Overloading - Same, same name function with different arguments.
     void message(){

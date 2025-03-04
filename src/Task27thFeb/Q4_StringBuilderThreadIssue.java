@@ -10,9 +10,9 @@ package Task27thFeb;
     }
 
     class myThread extends Thread {
-        SharedStringBuilder obj;
+        SharedBuffer obj;
 
-        myThread(SharedStringBuilder obj) {
+        myThread(SharedBuffer obj) {
             this.obj = obj;
         }
 
@@ -24,11 +24,11 @@ package Task27thFeb;
     public class Q4_StringBuilderThreadIssue {
         public static void main(String[] args) {
             SharedStringBuilder obj = new SharedStringBuilder();
-            myThread t1 = new myThread(obj);
-            myThread t2 = new myThread(obj);
+           // myThread t1 = new myThread(obj);
+           // myThread t2 = new myThread(obj);
 
-            t1.start();
-            t2.start();
+           // t1.start();
+           // t2.start();
         }
     }
 

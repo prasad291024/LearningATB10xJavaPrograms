@@ -8,6 +8,9 @@ class SharedBuffer {
         sb.append(str);
         System.out.println(sb);
     }
+
+    public void modify(String s) {
+    }
 }
 
 class MyThread extends Thread {
@@ -24,11 +27,6 @@ class MyThread extends Thread {
 
 public class Q1_StringBufferThreadExample {
     public static void main(String[] args) {
-        SharedBuffer obj = new SharedBuffer();
-        myThread t1 = new myThread(obj);
-        myThread t2 = new myThread(obj);
-
-        t1.start();
-        t2.start();
+        
     }
 }
