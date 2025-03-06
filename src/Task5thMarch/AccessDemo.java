@@ -1,6 +1,6 @@
 package Task5thMarch;
 
-class AccessDemo {
+public class AccessDemo {
         private String privateMessage = "Private: Only within this class";
         String defaultMessage = "Default: Accessible within the same package";
         protected String protectedMessage = "Protected: Accessible within the package & subclasses";
