@@ -4,13 +4,21 @@ import java.util.Scanner;
 
 public class LabP1_Switch_Basics {
     public static void main(String[] args) {
-
-        // User - Enter int number from 1 to 7
-        // Which day it is it
-        // 1 -> mon, 4 -> thur, 7 -> sun, 8,9,10....-1 -> Invalid
+        // Program to display day name based on number input
+        // Input: Number from 1 to 7
+        // Output: Corresponding day name (Mon, Tue, etc.)
+        // Invalid input: Numbers outside 1-7 range
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the day number(1 to 7)");
         int day = sc.nextInt();
+
+        // Validate input
+        if (day < 1 || day > 7) {
+            System.out.println("Invalid day number. Please enter a number between 1 and 7.");
+            sc.close();
+            return;
+        }
 
         switch (day) {
             case 1:
@@ -23,10 +31,10 @@ public class LabP1_Switch_Basics {
                 System.out.println("Wed");
                 break;
             case 4:
-                System.out.println("Thur");
+                System.out.println("Thu");
                 break;
             case 5:
-                System.out.println("Friday");
+                System.out.println("Fri");
                 break;
             case 6:
                 System.out.println("Sat");
@@ -35,10 +43,10 @@ public class LabP1_Switch_Basics {
                 System.out.println("Sun");
                 break;
             default:
-                System.out.println("No idea, what day it is");
+                System.out.println("Invalid day number");
                 break;
-
         }
-
+        
+        sc.close(); // Close the scanner
     }
 }
