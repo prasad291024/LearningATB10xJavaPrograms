@@ -4,11 +4,10 @@ public class LabP3_Private {
 }
 
 class XYZ{
-    XYZ(){
+
+        XYZ(){
 
     }
-
-
     protected int my_gold = 10;
 }
 

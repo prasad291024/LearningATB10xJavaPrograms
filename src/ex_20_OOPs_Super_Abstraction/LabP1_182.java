@@ -101,3 +101,5 @@ class Car extends Vehicle {
         System.out.println("Car: Overriding display() method");
 
         // Accessing parent class variable using super
+    }
+}
