@@ -1,7 +1,10 @@
 package ex_24_Exceptions;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public class LabP3_Checked_Exceptions {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
         System.out.println("1");
         try {
@@ -10,6 +13,7 @@ public class LabP3_Checked_Exceptions {
         } catch (Exception e) {
             //e.printStackTrace(); // This means full problem details with line no.
             //System.out.println(e.getMessage()); // / by zero
+            e.printStackTrace();
             System.out.println("Own message!");
         }
         System.out.println("2");
@@ -24,7 +28,7 @@ public class LabP3_Checked_Exceptions {
         // so it telling to handle it.
 
 
-        // FileInputStream fileInputStream = new FileInputStream("C://log.txt");
+       // FileInputStream fileInputStream = new FileInputStream("C://log.txt");
 
 
         try {
