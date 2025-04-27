@@ -1,10 +1,10 @@
 package ex_24_Exceptions;
 
-public class LabP19_Bank {
+public class LabP18_Bank {
         private String currency;
         private Integer amount;
 
-        public LabP19_Bank(String currency, Integer amount) {
+        public LabP18_Bank(String currency, Integer amount) {
             this.currency = currency;
             this.amount = amount;
         }
@@ -25,7 +25,7 @@ public class LabP19_Bank {
             this.amount = amount;
         }
 
-        public Integer add(LabP19_Bank bankName) {
+        public Integer add(LabP18_Bank bankName) {
             if (bankName.currency.equalsIgnoreCase("INR")) {
                 return bankName.amount + this.amount;
             } else {
