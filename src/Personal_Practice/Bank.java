@@ -6,6 +6,10 @@ public class Bank {
     int getRateOfInterest() {
         return 0;
     }
+
+    public int add(Bank jpChase) {
+        return 0;
+    }
 }
 
 // SBI subclass
