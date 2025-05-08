@@ -11,5 +11,6 @@ public class Lab_Literals_P7_Non_Primitive_Literal {
         // boolean s = null; // Size (Bits) -> NA switch off,switch on
         int age1  = 90; // Size Bits( 32)
 
+        // only string can have null, bcaz it is non promitive data type
     }
 }
