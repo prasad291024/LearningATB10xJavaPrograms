@@ -25,4 +25,4 @@ public class Lab_P6_TO_Three_Max {
 }
 
 
-int largest1 = (n1 >=n2)? ((n1>=n3)? n1:n3) : ((n2>=n3)? n2:n3);
+//int largest1 = (n1 >=n2)? ((n1>=n3)? n1:n3) : ((n2>=n3)? n2:n3);
