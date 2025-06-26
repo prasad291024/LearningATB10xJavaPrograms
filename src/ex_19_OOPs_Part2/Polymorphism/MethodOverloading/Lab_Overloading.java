@@ -1,4 +1,4 @@
-package ex_19_OOPs_Part2.MethodOverloading;
+package ex_19_OOPs_Part2.Polymorphism.MethodOverloading;
 
 public class Lab_Overloading {
     public static void main(String[] args) {
@@ -11,5 +11,9 @@ public class Lab_Overloading {
 
         double r2 = math.add(3.43, 4.56);
         System.out.println(r2);
+
+        int r3 = math.square(5);
+        System.out.println(r3);
+
     }
 }

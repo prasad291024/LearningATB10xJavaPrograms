@@ -1,4 +1,4 @@
-package ex_19_OOPs_Part2.MethodOverloading;
+package ex_19_OOPs_Part2.Polymorphism.MethodOverloading;
 
 public class MathOperations {
     int add(int a, int b){
@@ -11,5 +11,9 @@ public class MathOperations {
 
     double add(double a, double b) {
         return a + b;
+    }
+
+    public int square(int i) {
+        return i*i;
     }
 }
