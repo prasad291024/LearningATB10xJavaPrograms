@@ -3,26 +3,25 @@ package Personal_Practice;
 public class Student {
     static String course = "Automation"; // static variable
     int id; // instance variable
+    String batch;
 
-    Student(int id) {
+    Student(int id, String batch) {
         this.id = id;
+        this.batch = batch;
     }
 
-    void batchinfo()
-    {
-        String batch = "Fresh";
-    }
 
     void display() {
 
 
-        System.out.println("ID: " + id + ", Course: " + course + "batch: " + Batch);
+        System.out.println("ID: " + id + ", Course: " + course + ", Batch: " + batch);
 
     }
 
     public static void main(String[] args) {
-        Student s = new Student();
-        String Batch = s.batchinfo();
+        Student s = new Student(234, "ATB10X" );
+        s.display();
+
         
     }
 }
